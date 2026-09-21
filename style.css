@@ -399,8 +399,9 @@ img { max-width: 100%; display: block; }
 .stats-belt { padding: 8px 0 64px; }
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, minmax(220px, 280px));
   gap: 16px;
+  justify-content: center;
 }
 .stat-card {
   background: var(--card-bg);
